@@ -5,7 +5,7 @@
 #
 ################################################################################
 
-import ceilometerclient.client                                                  #pip install ceilometerclient
+import ceilometerclient.client                                                  #pip install python-ceilometerclient
 
 cclient = ceilometerclient.client.get_client(VERSION, os_username=USERNAME,
         os_password=PASSWORD, os_tenant_name=PROJECT_NAME, os_auth_url=AUTH_URL)
